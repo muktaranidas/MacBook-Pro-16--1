@@ -1,7 +1,20 @@
+.body-width {
+  max-width: 1280px;
+}
 .nav-bg {
+  background-color: #d5d5d5;
+  color: #ffffff;
+}
+.my-account-color {
+  color: #0b0b0b;
+}
+.header-bg {
   background-color: #404956;
   color: #ffffff;
 }
-.body-width {
-  max-width: 1280px;
+.sumash-logo-color {
+  color: #118b91;
+}
+.tech-logo-color {
+  color: #404956;
 }
