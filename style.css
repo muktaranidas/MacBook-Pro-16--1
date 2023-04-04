@@ -18,3 +18,19 @@
 .tech-logo-color {
   color: #404956;
 }
+.bg-right-div {
+  background-color: #f4f4f4;
+}
+.right-col-font-family {
+  font-family: "Samsung Sharp Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 142.3%;
+}
+.emi-available {
+  color: #f16a4f;
+}
+.apple-bg {
+  background-color: #f4f4f4;
+}
