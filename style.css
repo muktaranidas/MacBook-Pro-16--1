@@ -15,6 +15,9 @@
 .sumash-logo-color {
   color: #118b91;
 }
+.t-logo-bg {
+  background-color: #118b91;
+}
 .tech-logo-color {
   color: #404956;
 }
@@ -24,8 +27,8 @@
 .right-col-font-family {
   font-family: "Samsung Sharp Sans";
   font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
+  font-weight: 600;
+  font-size: 14px;
   line-height: 142.3%;
 }
 .emi-available {
@@ -33,4 +36,14 @@
 }
 .apple-bg {
   background-color: #f4f4f4;
+}
+.btn-bg {
+  background-color: #d9d9d9;
+}
+.text-font {
+  font-family: "Samsung Sharp Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  /* line-height: 116.5%; */
 }
