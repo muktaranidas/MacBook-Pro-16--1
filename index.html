@@ -55,31 +55,19 @@
               tabindex="0"
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li><a>Item 1</a></li>
-              <li tabindex="0">
-                <a class="justify-between">
-                  Parent
-                  <svg
-                    class="fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"
-                    />
-                  </svg>
-                </a>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
+              <li class="my-account-color flex flex-row">
+                <img src="/images/profile-user.png" alt="" class="px-2" />
+                <p>My Account</p>
               </li>
-              <li><a>Item 3</a></li>
+
+              <li class="my-account-color flex flex-row">
+                <img src="/images/profile-user.png" alt="" class="px-2" />
+                <p>Cart</p>
+              </li>
             </ul>
           </div>
-          <a class="text-4xl sumash-logo-color font-bold flex flex-row"
+          <a
+            class="lg:text-4xl sumash-logo-color font-bold sm:text-2xl flex flex-row"
             ><p class="text-orange-600 t-logo-bg mx-2">T</p>
             SUMASH <span class="tech-logo-color font-semibold"> TECH</span>
           </a>
@@ -96,7 +84,7 @@
             ></i>
           </div>
         </div>
-        <div class="navbar-end">
+        <div class="navbar-end hidden lg:flex">
           <ul class="flex">
             <li class="my-account-color flex flex-row">
               <img src="/images/profile-user.png" alt="" class="px-2" />
@@ -464,10 +452,10 @@
         </div>
 
         <div class="col-span-2">
-          <div class="rounded-lg mb-6 w-[280px] h-[263px] bg-right-div">
-            <div class="w-[280px] h-[140px] p-8 right-col-font-family">
-              <h2 class="emi-available pb-4">EMI Available!</h2>
-              <p class="pb-4">
+          <div class="rounded-lg mb-6 w-[240px] h-[240px] bg-right-div">
+            <div class="w-[240px] h-[140px] p-2 right-col-font-family">
+              <h2 class="emi-available py-4">EMI Available!</h2>
+              <p class="pb-4 right-div-description w-44">
                 EMI Available! EMI available on Online Payment over 5000BDT.
                 Before order please contact us for product stock availability
                 and updated price.
@@ -475,29 +463,35 @@
               <button class="btn bg-orange-600 border-none">Learn More</button>
             </div>
           </div>
-          <div class="rounded-lg w-[280px] h-[320px] bg-right-div">
-            <div class="w-[280px] h-[140px] p-2 right-col-font-family">
+          <div class="rounded-lg w-[240px] h-[320px] bg-right-div">
+            <div class="w-[240px] h-[140px] p-2 right-col-font-family">
               <div class="flex flex-row">
                 <img src="/images/camper-van.png" alt="" class="h-10 my-auto" />
                 <div class="flex flex-col p-4">
                   <h1 class="">CountryWide Delivery</h1>
-                  <p class="py-2">100% Genuine Product Money-back Guarantee</p>
+                  <p class="right-div-description w-32">
+                    100% Genuine Product Money-back Guarantee
+                  </p>
                 </div>
               </div>
               <hr />
               <div class="flex flex-row">
-                <img src="/images/camper-van.png" alt="" class="h-10 my-auto" />
+                <img src="/images/account.png" alt="" class="h-10 my-auto" />
                 <div class="flex flex-col p-4">
-                  <h1 class="">CountryWide Delivery</h1>
-                  <p class="py-2">100% Genuine Product Money-back Guarantee</p>
+                  <h1 class="">Buyer Protection</h1>
+                  <p class="right-div-description w-32">
+                    100% Genuine Product Money-back Guarantee
+                  </p>
                 </div>
               </div>
               <hr />
               <div class="flex flex-row">
-                <img src="/images/camper-van.png" alt="" class="h-10 my-auto" />
+                <img src="/images/wallet.png" alt="" class="h-10 my-auto" />
                 <div class="flex flex-col p-4">
-                  <h1 class="">CountryWide Delivery</h1>
-                  <p class="py-2">100% Genuine Product Money-back Guarantee</p>
+                  <h1 class="">Payment Method</h1>
+                  <p class="right-div-description w-32">
+                    100% Genuine Product Money-back Guarantee
+                  </p>
                 </div>
               </div>
             </div>
